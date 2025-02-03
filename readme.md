@@ -14,9 +14,10 @@
 5. Evolving Dialogue: The more you engage, the more insightful the responses become.
 ## 🔧 Tech Stack
 1. Frontend: Streamlit – for a slick, minimalistic, and intuitive interface.
-2. Backend: Replicate & Llama2 – for processing and generating responses based on Raavan's persona.
+2. Backend: Groq's Llama-3.3-70b – for processing and generating responses based on Raavan's persona.
 3. Environment Management: dotenv – for storing and managing API keys securely.
 4. Deployment: Completely serverless and cloud-based, ensuring scalability and efficiency.
+5. Astrology Calculations: Swiss Ephemeris (swisseph library)
 ## 🛠️ How to Run
 1. Clone the repository
 ```bash
@@ -31,9 +32,9 @@ pip install -r requirements.txt
 3. Set up your .env file
 Create a .env file in the root directory of your project and add the following key:
 ```bash
-REPLICATE_API_TOKEN=your_replicate_api_token
+GROQ_API_KEY=your_api_key_here
 ```
-You can get the API token from Replicate. If you already have it, paste it in the .env file.
+You can get the API token from Groq. If you already have it, paste it in the .env file.
 
 4. Run the App
 Start the Streamlit app:
@@ -56,19 +57,26 @@ Raavan is not your average chatbot. This is an AI who speaks from the heart of a
 1. Ramayan – The epic of Lord Rama and Raavan’s saga.
 2. Shiv Purana – Ancient scripture about Lord Shiva and Raavan’s connection.
 3. Jain Ramayan – A unique perspective on Raavan’s story in Jain mythology.
-4. Llama2 – The backbone of the chatbot, providing state-of-the-art AI response generation.
-5. Replicate – For giving us the API that powers this experience.
+4. Llama3 – The backbone of the chatbot, providing state-of-the-art AI response generation.
+5. Groq API – For giving us the API that powers this experience.
 
 ## ⚡ Why You’ll Love It
-1. Immersive Experience: Feel the weight of Raavan's wisdom and philosophy as you converse.
-2. Learn About Raavan: Get answers to burning questions that only a king like him can answer.
-3. Be a Mythology Enthusiast: Whether you're a Ramayan expert or a curious learner, this chatbot provides new insights every time.
-4. Sleek Interface: A modern, minimalistic, and user-friendly design to make your conversation flow without interruptions.
+🔥 Step Into the Mind of Raavan – Engage in deep, thought-provoking conversations with the legendary King of Lanka, a warrior, scholar, and Shiva’s greatest devotee.
+
+👑 Wisdom Like Never Before – Unlock powerful insights from Raavan’s lost scriptures, ancient Vedic texts, and battle-forged philosophy.
+
+📖 Experience the Epics Firsthand – Whether you're a mythology geek or a curious seeker, get unparalleled perspectives straight from the pages of the Ramayan, Jain Ramayan, and Shiv Purana.
+
+🕶️ Badass Yet Scholarly – Raavan doesn’t sugarcoat. His words are bold, unapologetic, and filled with the fire of ten heads—just as they should be.
+
+💡 Smart, Fluid, and Engaging – A seamless, beautifully designed interface that makes mythology feel alive, blending knowledge with a modern AI-powered experience.
+
+🔮 More Than Just a Chatbot – Ask for astrological insights, decode ancient mantras, and experience a storytelling mode where Raavan narrates his past with unmatched intensity.
+
+🚀 Unlock the Forbidden – Dive into Raavan’s occult knowledge, Vedic astrology, and the mystical teachings hidden for centuries.
+
+
 ## 💬 Let the Conversations Begin!
 Raavan is waiting... Ask him anything. Whether it's about his devotion, strategies, controversial actions, or his knowledge, you’re in for a ride of a lifetime.
 
-## 🔗 Links
-#### Blog: How to Build This AI Chatbot
-#### Replicate API
-#### Streamlit Documentation
 ## 🔥 Get ready for some spicy conversations with the king of Lanka!
