@@ -26,7 +26,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    st.markdown('📖 Learn how to build this app in this [blog](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/)!')        
+    st.markdown('📖 Learn how to build this app in this [blog](https://dev.to/avradeep_nayak_fa8d5f6995/from-dilemma-to-creation-how-i-brought-raavan-to-life-with-ai-2nde)!')        
 
 # Section: Display Verses (Separate from Chatbot)
 with st.sidebar.expander("📜 Raavan’s Verses & Teachings", expanded=False):
