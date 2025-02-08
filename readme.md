@@ -3,13 +3,13 @@
 शास्त्र-रावण is not just an AI chatbot; it's an experience. A groundbreaking fusion of cutting-edge AI and the mystique of ancient Indian mythology. Meet Raavan, the King of Lanka, the master strategist, the multi-faceted devotee of Lord Shiva, and the misunderstood genius of the Ramayan. Your journey into the depths of his mind begins now...
 
 ## 🚀 What is this?
-शास्त्र-रावण brings Raavan to life through an intelligent, natural language model powered by Llama2, Replicate, and the Shiv Purana, Ramayan, and Jain Ramayan. Engage in conversation with the king of Lanka as if he were alive today, defending his actions, philosophies, and reign. Perfect for lovers of mythology, philosophy, or anyone intrigued by the complexities of Raavan’s character.
+शास्त्र-रावण brings Raavan to life through an intelligent, natural language model powered by Groq's Llama-3.3-70b, and the Shiv Purana, Ramayan, and Jain Ramayan. Engage in conversation with the king of Lanka as if he were alive today, defending his actions, philosophies, and reign. Perfect for lovers of mythology, philosophy, or anyone intrigued by the complexities of Raavan’s character.
 
 ## Key Features
 
 1. Engage with Raavan: Ask him anything about his life, the Ramayan, his rule, and his philosophies.
 2. Philosophical Depth: Receive answers with historical accuracy, presenting Raavan’s point of view.
-3. AI-Powered Experience: Powered by Replicate and Llama2, two of the most advanced AI technologies.
+3. AI-Powered Experience: Powered by Groq's Llama-3.3-70b is the most advanced AI technologies.
 4. Interactive Chat: Chat directly with Raavan, who responds in an authentic, compelling voice.
 5. Evolving Dialogue: The more you engage, the more insightful the responses become.
 ## 🔧 Tech Stack
@@ -44,10 +44,9 @@ streamlit run app.py
 Now, you’re ready to chat with Raavan!
 
 ## 🎯 Key Functionalities
-1. Interactive Sidebar: Choose different Llama2 models (7B, 13B, 70B) based on the computational power you need.
-2. Dynamic Prompting: Write your question and let Raavan respond with grace and precision.
-3. Persistent Chat History: Chat history is stored in session state for a fluid experience.
-4. Customizable Parameters: Adjust the model's response to be more creative or grounded, thanks to temperature, max length, and repetition penalty parameters.
+1. Dynamic Prompting: Write your question and let Raavan respond with grace and precision.
+2. Persistent Chat History: Chat history is stored in session state for a fluid experience.
+3. Customizable Parameters: Adjust the model's response to be more creative or grounded, thanks to temperature, max length, and repetition penalty parameters.
 ## 🧠 Raavan's Persona
 Raavan is not your average chatbot. This is an AI who speaks from the heart of a king, a scholar, a devotee, and an intellectual. Here’s how we’ve defined him:
 
